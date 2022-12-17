@@ -1,20 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <title>Starter Scss</title>
-  </head>
-  <body>
-    <!-- HEADER -->
-    <header></header>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+		/>
+		<title>Starter Scss</title>
+	</head>
+	<body>
+		<!-- HEADER -->
+		<header class="header">
+			<div class="container header__container">
+				<img
+					src="./images/logo/main-logo.svg"
+					alt=""
+					class="header__logo--img"
+				/>
+				<input
+					type="text"
+					placeholder="Search books"
+					class="header__input"
+				/>
+				<div class="btns">
+					<i id="tgl" onclick="change()" class="fas fa-moon"></i>
+					<button class="header__btn"><a href="#" class="btn__linc">Logout</a></button>
+				</div>
+			</div>
+		</header>
 
-    <!-- MAIN -->
-    <main></main>
+		<!-- MAIN -->
+		<main></main>
 
-    <!-- FOOTER -->
-    <footer></footer>
-  </body>
+		<!-- FOOTER -->
+		<footer></footer>
+
+    <script src="./JS/main.js"></script>
+	</body>
 </html>

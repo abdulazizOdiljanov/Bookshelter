@@ -1,0 +1,81 @@
+.login__container {
+	min-height: 100vh;
+	min-width: 100vw;
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+		url(../../images/login/login-Bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+
+	&--img {
+		margin-top: 198px;
+	}
+
+	.login__form {
+		position: relative;
+
+		&--username {
+			display: block;
+			margin: 50px auto 0 auto;
+			position: relative;
+		}
+
+		&--password {
+			display: block;
+			margin: 0 auto;
+			margin: 20px auto 0 auto;
+			position: relative;
+		}
+
+		img {
+			position: absolute;
+			margin-top: -34px;
+			margin-left: -130px;
+		}
+
+		input {
+			font-family: 'Montserrat';
+			padding: 13px 51px;
+			font-weight: 300;
+			width: 300px;
+			background-color: transparent;
+			border: 1px solid #fff;
+			color: #fff;
+			border-radius: 4px;
+
+			&::placeholder {
+				color: #fff;
+			}
+		}
+
+		.login__btn {
+			padding: 13px 123px;
+			border-radius: 4px;
+			margin-top: 43px;
+			a {
+				font-family: 'Montserrat';
+				font-weight: 600;
+				font-size: 16px;
+				line-height: 20px;
+				text-align: center;
+				text-transform: uppercase;
+				color: #0d75ff;
+				text-decoration: none;
+			}
+		}
+	}
+	.login__linc {
+		text-decoration: none;
+		font-family: 'Montserrat';
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 20px;
+		color: #ffffff;
+      margin-left: 155px;
+      padding-top: 11px;
+      display: block;
+	}
+}

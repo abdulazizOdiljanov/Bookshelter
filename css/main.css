@@ -719,6 +719,15 @@ h1, h2, h3 {
 .registr__form input::placeholder {
   color: #fff;
 }
+.registr__form div {
+  position: relative;
+}
+.registr__form i {
+  position: absolute;
+  margin-top: 15px;
+  font-size: 18px;
+  margin-left: 13px;
+}
 .registr__form button {
   padding: 10px;
   width: 100%;

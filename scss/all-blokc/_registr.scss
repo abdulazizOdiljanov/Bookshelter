@@ -23,6 +23,7 @@
 
 	&__form {
 		margin-top: 20px;
+
 		h3 {
 			font-size: 16px;
 			max-width: 200px;
@@ -41,6 +42,17 @@
 			&::placeholder {
 				color: #fff;
 			}
+		}
+
+		div {
+			position: relative;
+		}
+
+		i {
+			position: absolute;
+			margin-top: 15px;
+			font-size: 18px;
+			margin-left: 13px;
 		}
 
 		button {

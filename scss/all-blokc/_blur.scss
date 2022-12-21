@@ -1,0 +1,91 @@
+.blur {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+
+.more_info {
+	position: fixed;
+	width: 700px;
+	height: 100vh;
+	background-color: white;
+	top: 0;
+	right: 0;
+	z-index: 99999;
+
+	.name_book {
+		width: 100%;
+		padding: 15px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		font-size: 24px;
+		font-weight: bold;
+	}
+
+	.img_part {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.description {
+		padding: 0 20px;
+		font-size: 15px;
+		height: 25vh;
+		overflow: auto;
+	}
+
+	.description::-webkit-scrollbar {
+		width: 8px;
+	}
+
+	.description::-webkit-scrollbar-thumb {
+		background-color: #757881;
+		border-radius: 10px;
+	}
+
+	.infos {
+		margin: 20px;
+		padding: 0;
+		height: 200px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		li {
+			list-style: none;
+			margin: 0;
+			font-size: 14px;
+
+			.inLi {
+				padding: 5px 10px;
+				background-color: rgba(13, 117, 255, 0.09);
+				color: #0d75ff;
+				border-radius: 30px;
+				font-size: 14px;
+				margin-left: 10px;
+			}
+		}
+	}
+
+	.read {
+		padding: 7px 20px;
+		background-color: #757881;
+		border: none;
+		border-radius: 5px;
+		letter-spacing: 1.5px;
+		margin-left: 80%;
+
+		a {
+			color: white;
+			text-decoration: none;
+		}
+	}
+}

@@ -1,0 +1,84 @@
+.books {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 30px 47px;
+	margin-top: 20px;
+
+	.book {
+		list-style: none;
+		width: 282px;
+		border: 1px solid #e3e6eb;
+		padding: 13px 15px 15px 15px;
+
+		.img_part img {
+			border: 24px solid #f8fafd;
+			border-top: 24px solid #f8fafd;
+			border-bottom: 24px solid #f8fafd;
+			height: 240px;
+			width: 249px;
+			margin-left: 5px;
+		}
+
+		.book_name {
+			font-weight: 500;
+			font-size: 18px;
+			line-height: 21px;
+			padding: 19px 0 0 0;
+		}
+
+		.book_author {
+			font-weight: 500;
+			font-size: 13px;
+			line-height: 18px;
+			color: #757881;
+			margin: 0;
+			margin-top: 2px;
+		}
+
+		.date {
+			font-weight: 500;
+			font-size: 13px;
+			line-height: 18px;
+			color: #757881;
+			margin: 0;
+			margin-bottom: 10px;
+		}
+
+		.bookmark {
+			background-color: #ffd80d;
+			border: none;
+			padding: 10px 26px;
+			border-radius: 4px;
+			font-weight: 500;
+			font-size: 14px;
+			font-family: 'Rubik', sans-serif;
+		}
+
+		.more {
+			background-color: #0d75ff0d;
+			color: #0d75ff;
+			margin-left: 6px;
+			border: none;
+			padding: 10px 26px;
+			border-radius: 4px;
+			font-weight: 500;
+			font-size: 14px;
+			font-family: 'Rubik', sans-serif;
+		}
+
+		.read {
+			background-color: #75828a;
+			border: none;
+			padding: 10px 105px;
+			font-family: 'Rubik', sans-serif;
+			border-radius: 4px;
+			margin-top: 5px;
+			a {
+				color: #fff;
+				font-weight: 500;
+				text-decoration: none;
+				font-size: 14px;
+			}
+		}
+	}
+}

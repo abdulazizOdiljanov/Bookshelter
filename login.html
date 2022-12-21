@@ -5,37 +5,41 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Login Page</title>
-		<link rel="shortcut icon" href="./logo.svg" type="image/x-icon" />
+		<link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon" />
 		<link rel="stylesheet" href="./css/main.css" />
 	</head>
 	<body>
-		<div class="login__container">
-			<img
-				src="./images/logo/white logo.svg"
-				alt=""
-				class="login__container--img"
-			/>
-			<form class="login__form">
-				<div>
-					<input
-						type="text"
-						class="login__form--username"
-						placeholder="Username"
-					/>
-					<img src="./images/login/username.png" alt="login" />
-				</div>
-				<div>
-					<input
-						type="text"
-						class="login__form--password"
-						placeholder="password"
-					/>
-					<img src="./images/login/passwors.png" alt="password" />
-				</div>
-				<button class="login__btn"><a href="#" class="btn__linc">login</a></button>  
-			</form>
-
-			<a href="#" class="login__linc">Forgot password?</a>
-		</div>
+		<main class="login">
+			<div class="container login__container">
+				<img
+					src="./images/logo/white logo.svg"
+					alt=""
+					class="login__container--img"
+				/>
+				<form class="login__form">
+					<div>
+						<input
+							type="text"
+							class="login__form--username"
+							placeholder="Username"
+						/>
+						<img src="./images/login/username.png" alt="login" />
+					</div>
+					<div>
+						<input
+							type="text"
+							class="login__form--password"
+							placeholder="password"
+						/>
+						<img src="./images/login/passwors.png" alt="password" />
+					</div>
+					<button class="login__btn">
+						<a href="#" class="btn__linc">login</a>
+					</button>
+				</form>
+				<a href="#" class="login__linc">Forgot password?</a>
+			</div>
+		</main>
+		<script src="./JS/login.js"></script>
 	</body>
 </html>

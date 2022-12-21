@@ -1,0 +1,60 @@
+.bookmarks {
+	max-width: 320px;
+	padding: 25px;
+	margin-left: -20px;
+
+	&__title {
+		font-weight: 400;
+		align-items: center;
+		font-size: 24px;
+		line-height: 28px;
+	}
+
+	&__desc {
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 155.6%;
+	}
+
+	.box {
+		background: #f8fafd;
+		border-radius: 4px;
+		padding: 15px 10px;
+		margin-top: 15px;
+		width: 258px;
+		justify-content: space-between;
+		display: flex;
+		.title {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 19px;
+			max-width: 170px;
+		}
+
+		.author {
+			font-family: 'Noto Sans';
+			font-weight: 500;
+			margin-top: 5px;
+			font-size: 13px;
+			line-height: 18px;
+			color: #757881;
+			max-width: 170px;
+		}
+
+		.icons {
+			display: flex;
+			align-items: center;
+			gap: 10px;
+
+			a {
+				width: 24px;
+				height: 24px;
+			}
+
+			img {
+				width: 24px;
+				height: 24px;
+			}
+		}
+	}
+}

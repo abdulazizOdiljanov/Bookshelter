@@ -1,0 +1,50 @@
+.hero__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	// background: #ffffff;
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
+	font-family: 'Rubik';
+	padding: 11px 41px;
+
+	.results {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 17px;
+		color: #222531;
+	}
+
+	.data__btn {
+		padding: 9px 13px;
+		background: #a6b0c3;
+		border-radius: 4px;
+		color: #fff;
+		border: none;
+	}
+}
+
+.infobar {
+	&__container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
+		padding: 11px 41px;
+	}
+
+	&__desc {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 17px;
+		color: #222531;
+		font-family: 'rubik';
+	}
+
+	&__data--btn {
+		padding: 9px 13px;
+		background: #a6b0c3;
+		border-radius: 4px;
+		color: #fff;
+		border: none;
+	}
+}

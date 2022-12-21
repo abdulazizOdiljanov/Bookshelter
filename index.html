@@ -4,41 +4,81 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./css/main.css" />
+		<title>BookShelter - main page</title>
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
 		/>
-    <link rel="shortcut icon" href="./logo.svg" type="image/x-icon">
-		<title>Bookshelter</title>
+		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon" />
 	</head>
+
 	<body>
-		<!-- HEADER -->
-		<header class="header">
-			<div class="container header__container">
-				<img
-					src="./images/logo/main-logo.svg"
-					alt=""
-					class="header__logo--img"
-				/>
-				<input
-					type="text"
-					placeholder="Search books"
-					class="header__input"
-				/>
-				<div class="btns">
-					<i id="tgl" onclick="change()" class="fas fa-moon"></i>
-					<button class="header__btn"><a href="#" class="btn__linc">Logout</a></button>
+		<div class="body">
+			<header class="header">
+				<div class="container header__container">
+					<div class="header__logo--img"></div>
+					<div class="header__search">
+						<input
+							type="text"
+							placeholder="Search books"
+							class="header__search--input"
+						/>
+					</div>
+					<div class="header__right--part" style="align-items: center">
+						<i class="fa-solid fa-sun night" id="tgl" onclick="change()"></i>
+						<button class="header__logout">
+							<a href="#" class="header__logout--linc">Log Out</a>
+						</button>
+					</div>
 				</div>
-			</div>
-		</header>
+			</header>
 
-		<!-- MAIN -->
-		<main></main>
+			<main class="main">
+				<section class="infobar">
+					<div class="container infobar__container">
+						<p class="infobar__desc">
+							Showing <span class="infobar__count">18</span> Result(s)
+						</p>
+						<button class="infobar__data--btn">
+							<i class="fa-regular fa-calendar"></i> Order by newest
+						</button>
+					</div>
+				</section>
 
-		<!-- FOOTER -->
-		<footer></footer>
+				<section class="main__section">
+					<div class="container main__container">
+						<div class="bookmarks">
+							<h2 class="bookmarks__title">Bookmarks</h2>
+							<p class="bookmarks__desc">
+								If you don’t like to read, you haven’t found the right book
+							</p>
+							<div class="bookmarks__part"></div>
+						</div>
 
-    <script src="./JS/main.js"></script>
+						<div class="books__part">
+							<div class="books"></div>
+
+							<div class="pagenation" style="margin-top: 30px">
+								<i class="pr_btn fa-sharp fa-solid fa-arrow-left-long"></i>
+								<div id="1" class="p active">1</div>
+								<div id="2" class="p">2</div>
+								<div id="3" class="p">3</div>
+								<div id="4" class="p">4</div>
+								<div id="5" class="p">5</div>
+								<div id="6" class="p">6</div>
+								<div id="7" class="p">7</div>
+								<div id="8" class="p">8</div>
+								<div id="9" class="p">9</div>
+								<div id="10" class="p">10</div>
+								<i class="nx_btn fa-solid fa-arrow-right-long"></i>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
+
+		<script src="./JS/main.js"></script>
 	</body>
 </html>
